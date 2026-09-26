@@ -1,5 +1,7 @@
 # Netzwerksimplex – was ist ein Pivot, und was kostet er? – Streamlit-Demo
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-netzwerksimplex-demo.streamlit.app/)**
+
 Stück 19 der **Netzwerkfluss-Linie** der "Konzepte"-Reihe für die Website "Sebastian Hanisch – Operations Research und Machine Learning", im Min-Cost-Ast neben [ssp-demo](https://github.com/sebastian-hanisch/ssp-demo) (Successive Shortest Paths), [cycle-canceling-demo](https://github.com/sebastian-hanisch/cycle-canceling-demo) und [cost-scaling-demo](https://github.com/sebastian-hanisch/cost-scaling-demo):
 anders als die Fall-Demos im Portfolio (ein Anwendungsfall, mehrere Verfahren im Vergleich) zeigt diese Demo **ein** Verfahren – den **Netzwerksimplex** – an einem wachsenden Beispiel.
 Successive Shortest Paths füllt Wege auf, Cycle-Canceling löscht negative Kreise, Cost Scaling verfeinert Schranken. Der Netzwerksimplex hält immer eine **Basis** – einen **Spannbaum** der Knoten – mit **Potenzialen** (Schattenpreisen) und für jede Kante außerhalb des Baums die **reduzierten Kosten**;

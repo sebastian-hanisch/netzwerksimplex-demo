@@ -96,7 +96,7 @@ class Result:
 
 
 def default_big_m(arcs, n):
-    """Ein sicheres M: größer als jeder einfache Weg im Netz kosten kann (n mal die größte Kantenkosten) plus 1."""
+    """Ein sicheres M: größer als jeder einfache Weg im Netz kosten kann (n mal die größte Kantenkosten) plus 1. Gilt für Kosten >= 0 (der Bereich der Demo); mit negativen Kosten reicht es nicht."""
     return 1 + n * max((c for _u, _v, _cap, c in arcs), default=1)
 
 

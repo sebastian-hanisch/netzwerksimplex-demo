@@ -310,7 +310,7 @@ st.markdown(
 | **Ein generiertes Netz** | Ein geschichtetes Distributionsnetz mit erzeugten Kapazitäten und Kosten, keine Fremddaten. |
 """
 )
-st.caption("Die Netzwerkfluss-Linie ist als Ganzes geplant: die dreizehn Stücke der Hauptlinie, darunter **Netzwerksimplex** (dieses Stück, Stück 19, gebaut) als weiterer Löser des Min-Cost-Flow-Modells neben Successive Shortest Paths, Cycle-Canceling und Cost Scaling, und die Erweiterungen E1, E4 und E5.")
+st.caption("Die Netzwerkfluss-Linie besteht aus den dreizehn Stücken der Hauptlinie, darunter **Netzwerksimplex** (dieses Stück, Stück 19) als weiterer Löser des Min-Cost-Flow-Modells neben Successive Shortest Paths, Cycle-Canceling und Cost Scaling, und den Erweiterungen E1 (Projektauswahl, Graph Cuts, Gomory-Hu-Baum), E4 (Frank-Wolfe, Gradient Projection) und E5 (Fluss über die Zeit); alle sind gebaut.")
 
 st.markdown("---")
 
